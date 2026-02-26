@@ -69,8 +69,8 @@ def _handle_init(args: argparse.Namespace) -> None:
     print(f"  Python: {python_path}")
     print()
     print("Next steps:")
-    print(f"  code-review-graph build    # build the knowledge graph")
-    print(f"  Restart Claude Code        # to pick up the new MCP server")
+    print("  code-review-graph build    # build the knowledge graph")
+    print("  Restart Claude Code        # to pick up the new MCP server")
 
 
 def main() -> None:
